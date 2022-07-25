@@ -1,1 +1,1 @@
-https://www.youtube.com/playlist?list=PLfdtiltiRHWGXSggf05W-pJbD47-_d8bJ
+Base App ready to rock with PHPUnit and PSR-4 autoloading
