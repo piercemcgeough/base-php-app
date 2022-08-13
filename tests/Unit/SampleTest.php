@@ -11,4 +11,16 @@ class SampleTest extends \PHPUnit\Framework\TestCase
 
         $this->assertInstanceOf(Sample::class, $sample);
     }
+
+    /** @test */
+    public function trueIsTrue()
+    {
+        $this->assertTrue(true);
+    }
+
+    /** @test */
+    public function falseIsFalse()
+    {
+        $this->assertFalse(false);
+    }
 }
