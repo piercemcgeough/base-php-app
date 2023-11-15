@@ -11,7 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app"
+            "PierceMcGeough\\BaseApp\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PierceMcGeough\\BaseApp\\Tests\\Unit\\": "tests/Unit"
         }
     },
     "repository": {

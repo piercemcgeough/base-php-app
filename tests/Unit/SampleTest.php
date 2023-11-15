@@ -1,6 +1,8 @@
 <?php
 
-use App\Models\Sample;
+namespace PierceMcGeough\BaseApp\Tests\Unit;
+
+use PierceMcGeough\BaseApp\Sample;
 
 class SampleTest extends \PHPUnit\Framework\TestCase
 {
