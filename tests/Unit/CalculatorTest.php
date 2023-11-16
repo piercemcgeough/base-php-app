@@ -24,7 +24,7 @@ class CalculatorTest extends TestCase
     /** @test */
     public function addTwoNumbers_ReturnsCorrectResult()
     {
-        $result = $this->calculator->add(3, 3);
+        $result = $this->calculator->add(3, 2);
 
         $this->assertEquals(5, $result);
     }
