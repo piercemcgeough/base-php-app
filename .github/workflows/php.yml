@@ -38,4 +38,4 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Run test suite
-      run: /vendo/bin/phpunit
+      run: ./vendor/bin/phpunit
