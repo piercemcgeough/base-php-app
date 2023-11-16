@@ -1,5 +1,8 @@
 <?php
 
-// require './vendor/autoload.php';
+require './vendor/autoload.php';
+use PierceMcGeough\BaseApp\Calculator;
 
-echo 'Hellow World';
+$calculator = new Calculator();
+$add = $calculator->add(4, 5);
+echo $add;
