@@ -5,18 +5,17 @@
   colors="true"
   stopOnFailure="true"
   xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.4/phpunit.xsd"
-  cacheDirectory=".phpunit.cache"
+  cacheResult="false"
 >
+
   <testsuites>
     <testsuite name="Unit">
       <directory suffix="Test.php">./tests/Unit</directory>
     </testsuite>
   </testsuites>
-  <!-- <coverage processUncoveredFiles="true">
-        <include>
-            <directory suffix=".php">./app</directory>
-        </include>
-    </coverage> -->
+
+  <!-- <coverage/> -->
+
   <!-- <php>
         <env name="APP_ENV" value="testing"/>
         <env name="BCRYPT_ROUNDS" value="4"/>
@@ -28,4 +27,11 @@
         <env name="SESSION_DRIVER" value="array"/>
         <env name="TELESCOPE_ENABLED" value="false"/>
     </php> -->
+
+  <source>
+    <include>
+      <directory suffix=".php">./src</directory>
+    </include>
+  </source>
+
 </phpunit>

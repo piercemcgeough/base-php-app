@@ -1,1 +1,0 @@
-{"version":1,"defects":{"SampleTest::constructor":8},"times":{"SampleTest::constructor":0.007,"SampleTest::trueIsTrue":0.001,"SampleTest::falseIsFalse":0.001,"PierceMcGeough\\BaseApp\\Tests\\Unit\\SampleTest::constructor":0.028,"PierceMcGeough\\BaseApp\\Tests\\Unit\\SampleTest::trueIsTrue":0.002,"PierceMcGeough\\BaseApp\\Tests\\Unit\\SampleTest::falseIsFalse":0.001}}
