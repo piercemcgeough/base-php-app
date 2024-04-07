@@ -2,6 +2,7 @@
 
 namespace PierceMcGeough\BaseApp\Tests\Unit;
 
+use PHPUnit\Framework\Attributes\Test;
 use \PHPUnit\Framework\TestCase;
 use PierceMcGeough\BaseApp\Calculator;
 
@@ -15,13 +16,13 @@ class CalculatorTest extends TestCase
         $this->calculator = new Calculator();
     }
 
-    /** @test */
+    #[Test]
     public function instanceCanBeCreated()
     {
         $this->assertInstanceOf(Calculator::class, $this->calculator);
     }
 
-    /** @test */
+    #[Test]
     public function addTwoNumbers_ReturnsCorrectResult()
     {
         $result = $this->calculator->add(3, 2);
@@ -29,7 +30,7 @@ class CalculatorTest extends TestCase
         $this->assertEquals(5, $result);
     }
 
-    /** @test */
+    #[Test]
     public function subtractTwoNumbers_ReturnsCorrectResult()
     {
         $result = $this->calculator->subtract(5, 3);
